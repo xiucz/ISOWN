@@ -129,7 +129,8 @@ tar xvfz MA.scores.hg19.tar.bz2
 Reformat and index Mutation Assessor by using the following script:
 
 ```s
-perl ${ISOWN_HOME}/bin/mutation-assessor_format_index_vcf.pl MA.hg19 2013_12_11_MA.vcf  
+perl ${ISOWN_HOME}/bin/mutation-assessor_format_index_vcf.pl MA_scores_rel3_hg19_full 2013_12_11_MA.vcf
+
 ```
 
 Download hg19 assembly from UCSC ( http://hgdownload.soe.ucsc.edu/goldenPath/hg19/chromosomes/ ) 
